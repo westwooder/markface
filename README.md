@@ -108,3 +108,15 @@ powershell -ExecutionPolicy Bypass -File build.ps1
 ## 日志
 
 `%APPDATA%\markface\markface.log`，设置存在同目录的 `settings.json`。
+
+## 许可
+
+[AGPL-3.0](LICENSE)。
+
+这不是偏好而是义务：人脸检测模型派生自 akanametov/yolo-face（GPL-3.0），姿态模型
+基于 Ultralytics YOLO（AGPL-3.0），两者的传染性条款要求衍生作品采用兼容许可。
+
+第三方组件与各自许可见 [NOTICE.md](NOTICE.md)。
+
+要点：分发本程序需附带源码，衍生作品须同样开源，**通过网络提供服务时使用者有权
+获得服务端源码**。
