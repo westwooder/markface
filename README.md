@@ -4,11 +4,19 @@ Windows 桌面程序：选一个视频，自动把画面里的人脸打上马赛
 
 不需要目标机器装 Python —— 打包后是一个自带运行环境的文件夹，双击 `markface.exe` 即可。
 
+## 下载
+
+[**下载 markface-v1.0-windows-x64.zip**](https://github.com/westwooder/markface/releases/latest)（约 250MB）
+
+解压后双击 `markface.exe`。不需要装 Python，不需要装任何依赖。
+
+完整使用说明见 [使用说明.md](使用说明.md)。
+
 ## 直接使用
 
-1. 把 `dist\markface` 整个文件夹拷到目标机器
-2. 双击 `markface.exe`
-3. 选视频 → 预览确认范围 → 开始打码
+1. 解压 zip，双击 `markface.exe`
+2. 选视频（也可以直接拖进窗口）
+3. 预览确认范围 → 开始打码
 
 ## 界面说明
 
