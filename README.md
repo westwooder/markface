@@ -10,7 +10,7 @@ Windows 桌面程序：选一个视频，自动把画面里的人脸打上马赛
 
 解压后双击 `markface.exe`。不需要装 Python，不需要装任何依赖。
 
-完整使用说明见 [使用说明.md](使用说明.md)。
+完整使用说明见 [USAGE.zh-CN.md](USAGE.zh-CN.md)。
 
 ## 直接使用
 
