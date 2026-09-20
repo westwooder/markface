@@ -1,0 +1,12 @@
+.venv/
+build/
+dist/
+__pycache__/
+*.pyc
+models/*.onnx
+
+# Test footage: contains real faces, and is large. Keep it local.
+test/
+*.mp4
+*.mov
+*.mkv

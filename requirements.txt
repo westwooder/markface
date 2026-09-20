@@ -1,0 +1,6 @@
+# --- Runtime dependencies (bundled into the frozen app) ---
+numpy==2.2.6
+opencv-contrib-python-headless==4.12.0.88
+onnxruntime-directml==1.24.4
+PySide6-Essentials==6.11.2
+imageio-ffmpeg==0.6.0

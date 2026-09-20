@@ -1,0 +1,35 @@
+{
+  "comment": "Model registry. Files are downloaded by tools/fetch_models.py into this directory.",
+  "models": {
+    "face_s": {
+      "file": "yolov11s-face.onnx",
+      "url": "https://huggingface.co/deepghs/yolo-face/resolve/main/yolov11s-face/model.onnx",
+      "role": "face",
+      "input": 640,
+      "layout": "yolo_v8_transposed",
+      "desc": "YOLOv11s face detector - fast preset"
+    },
+    "face_m": {
+      "file": "yolov11m-face.onnx",
+      "url": "https://huggingface.co/deepghs/yolo-face/resolve/main/yolov11m-face/model.onnx",
+      "role": "face",
+      "input": 640,
+      "layout": "yolo_v8_transposed",
+      "desc": "YOLOv11m face detector - balanced/thorough preset"
+    },
+    "yunet": {
+      "file": "yunet.onnx",
+      "url": "https://huggingface.co/opencv/face_detection_yunet/resolve/main/face_detection_yunet_2023mar.onnx",
+      "role": "face_secondary",
+      "desc": "OpenCV YuNet - independent architecture, catches what YOLO misses"
+    },
+    "pose": {
+      "file": "yolo26n-pose.onnx",
+      "url": "https://huggingface.co/onnx-community/yolo26n-pose-ONNX/resolve/main/onnx/model.onnx",
+      "role": "pose",
+      "input": 640,
+      "layout": "yolo26_nms_builtin",
+      "desc": "YOLO26n pose - infers head box from body keypoints when face is fully occluded"
+    }
+  }
+}
