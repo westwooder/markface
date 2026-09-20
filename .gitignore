@@ -3,7 +3,8 @@ build/
 dist/
 __pycache__/
 *.pyc
-models/*.onnx
+
+# Model weights are committed on purpose so a clone is ready to run.
 
 # Test footage: contains real faces, and is large. Keep it local.
 test/
